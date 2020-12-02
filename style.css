@@ -2,7 +2,9 @@
 
 :root {
     --primary-color: #1D4ED8;
-    --dark-gray: #6B7280
+    --dark-gray: #6B7280;
+    --light-gray: #E5E7EB;
+
 
 }
 
@@ -103,3 +105,17 @@ hr{
     .hero .hero-comment .heading-inverted{
         color: var(--primary-color);
     }
+/** Sections**/
+.section{
+    padding: 2rem;
+}
+
+.section  h1{
+    text-align: center;
+    
+
+
+}
+.ow{
+    background-color: var(--light-gray)
+}
